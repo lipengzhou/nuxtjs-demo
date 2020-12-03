@@ -1,6 +1,9 @@
 <template>
   <div>
     <h1>Hello world!</h1>
+    <p>
+      <nuxt-link to="/about">Go About</nuxt-link>
+    </p>
     <ul>
       <li
         v-for="post in posts"
